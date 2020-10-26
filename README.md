@@ -16,7 +16,7 @@
 
 ## auto tool
 
-- githube action
+- github action
 
 ## quality
 
