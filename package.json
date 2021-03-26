@@ -1,0 +1,19 @@
+{
+  "name": "oss-template",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ynishimura/oss-template.git"
+  },
+  "author": "ynishimura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynishimura/oss-template/issues"
+  },
+  "homepage": "https://github.com/ynishimura/oss-template#readme"
+}

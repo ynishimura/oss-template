@@ -17,6 +17,8 @@
 ## auto tool
 
 - github action
+  - slack notification
+  - generate release note
 
 ## quality
 
@@ -27,5 +29,11 @@
 - sider
 
 - github codeql
+
+- renovate
+
+## commit rule
+
+## GitHub Setting
 
 ## license

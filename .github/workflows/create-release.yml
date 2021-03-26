@@ -1,0 +1,24 @@
+name: Create a release pull request
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  create-release-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@master
+
+      - name: echo-npm-version
+        id: echo-version
+        run: |
+          echo v${{ steps.package-version.outputs.current-version}}
